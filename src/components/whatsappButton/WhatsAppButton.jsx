@@ -3,10 +3,10 @@ import '../whatsappButton/WhatsAppButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
+
 const WhatsAppButton = () => {
   const handleClick = () => {
-    // Lógica para abrir la ventana de chat de WhatsApp
-    // Puedes utilizar la API de WhatsApp o redirigir a un enlace de WhatsApp
+    window.open('https://api.whatsapp.com/send/?phone=5492901440354', '_blank');
   };
 
   return (

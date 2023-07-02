@@ -1,6 +1,66 @@
+
+.footer .redes-sociales {
+  background-color: #2a2a2a;
+
+}
+
+/* Estilos generales */
 .footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px;
   text-align: center;
+  font-size: 14px;
+}
+
+.footer .footer-text {
+  margin-top: 20px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (min-width: 576px) {
+  .footer {
+    padding: 40px;
+    font-size: 16px;
+  }
+
+  .footer .redes-sociales {
+    padding: 60px;
+  }
+
+  .footer .redes-sociales h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+@media (min-width: 768px) {
+  .footer {
+    padding: 60px;
+    font-size: 18px;
+  }
+
+  .footer .redes-sociales {
+    padding: 80px;
+  }
+
+  .footer .redes-sociales h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Estilos para pantallas aún más grandes */
+@media (min-width: 992px) {
+  .footer {
+    padding: 80px;
+    font-size: 20px;
+  }
+
+  .footer .redes-sociales {
+    padding: 100px;
+  }
+
+  .footer .redes-sociales h2 {
+    font-size: 3.5rem;
+  }
 }

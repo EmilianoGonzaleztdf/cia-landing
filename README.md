@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# CIA Landing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una página de aterrizaje (landing page) para la CIA (Compañía de Informática Avanzada). Proporciona información básica sobre la compañía y sus servicios, y permite a los usuarios contactar con ellos a través de un formulario.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Diseño minimalista y atractivo.
+- Información sobre los servicios ofrecidos por la CIA.
+- Formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información.
+- Responsive y compatible con dispositivos móviles.
 
-### `npm start`
+## Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Paquetes de npm utilizados
 
-### `npm test`
+Asegúrate de tener los siguientes paquetes de npm instalados antes de ejecutar el proyecto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Bootstrap: `npm install bootstrap`
+- React-router-dom: `npm install react-router-dom`
+- React : `npm install react`
+- fortawesome: `npm install fortawesome-free`
 
-### `npm run build`
+## Instalación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona este repositorio: `git clone https://github.com/EmilianoGonzaleztdf/cia-landing.git`
+2. Abre el archivo `index.html` en tu navegador web.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribución
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Las contribuciones son bienvenidas. Si quieres mejorar este proyecto, sigue estos pasos:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork el repositorio.
+2. Crea una rama para tu nueva funcionalidad: `git checkout -b feature/nueva-funcionalidad`.
+3. Realiza los cambios necesarios y haz commit: `git commit -am 'Agrega nueva funcionalidad'`.
+4. Push a la rama: `git push origin feature/nueva-funcionalidad`.
+5. Abre un pull request.
