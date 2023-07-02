@@ -24,6 +24,7 @@ function App() {
           <Route path="*" element={<P404 />} />
         </Routes>
         <WhatsAppButton/>
+        <RedesSociales/>
         <Footer />
       </Router>
     </div>
